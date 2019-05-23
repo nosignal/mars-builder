@@ -10,5 +10,6 @@ RUN apt-get update && \
     zip \
     -y && \
     mkdir -p /src/tar/switch/init && \
-    mkdir -p /src/tar/download/config
+    mkdir -p /src/tar/download/config && \
+    rm -rf /var/lib/apt/lists/*
 
